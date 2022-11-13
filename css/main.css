@@ -1,7 +1,16 @@
 :root {
-  --text-color: white;
+  --color-1: rgb(220, 220, 220);
   --background-color-1: #2b2b2b;
   --font-1: "Inter", sans-serif;
+}
+
+/* Defaults */
+
+body {
+  width: 100%;
+  background-color: var(--background-color-1);
+  margin: 0px;
+  padding: 0px;
 }
 
 h1,
@@ -10,11 +19,60 @@ h3,
 h4,
 h5,
 h6 {
-  color: var(--text-color);
+  color: var(--color-1);
   text-align: center;
   font-family: var(--font-1);
 }
 
-body {
-  background-color: var(--background-color-1);
+/* Main section */
+
+.main-section {
+  margin: auto;
+  display: block;
+  padding-top: 50px;
+  width: 40%;
+}
+
+/* Div das informações da pessoa */
+
+#foto-da-pessoa {
+  width: 50%;
+  height: auto;
+  border-radius: 50%;
+  margin: auto;
+  display: block;
+  padding: 2%;
+  border: 2px solid blue;
+}
+
+h1.titulo {
+  font-family: var(--font-1);
+  font-size: 2em;
+  font-weight: bold;
+}
+
+/* Parte dos links da pessoa */
+
+.button {
+  color: var(--color-1);
+  font-family: var(--font-1);
+  letter-spacing: 0.25%;
+  font-size: 100%;
+  text-align: center;
+  border: 2px solid var(--color-1);
+  border-radius: 30px;
+  padding: 10px;
+  display: block;
+  text-decoration: none;
+}
+
+/* Mobile */
+@media only screen and (max-device-width: 1200px) and (orientation: portrait) {
+  /* Main section */
+
+  .main-section {
+    margin: auto;
+    display: block;
+    width: 88%;
+  }
 }
