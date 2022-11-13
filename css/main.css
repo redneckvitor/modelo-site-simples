@@ -1,0 +1,20 @@
+:root {
+  --text-color: white;
+  --background-color-1: #2b2b2b;
+  --font-1: "Inter", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--text-color);
+  text-align: center;
+  font-family: var(--font-1);
+}
+
+body {
+  background-color: var(--background-color-1);
+}
