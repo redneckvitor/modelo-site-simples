@@ -101,13 +101,57 @@ h2.subtitulo {
 
 #whatsapp {
   color: var(--color-1);
-  border: 2px solid var(--color-whatsapp);
+  border: 2px solid var(--color-1);
 }
 
 #whatsapp:hover {
   color: white;
   background-color: var(--color-whatsapp);
   border: 2px solid var(--color-whatsapp);
+}
+
+#telegram {
+  color: var(--color-1);
+  border: 2px solid var(--color-1);
+}
+
+#telegram:hover {
+  color: white;
+  background-color: var(--color-telegram);
+  border: 2px solid var(--color-telegram);
+}
+
+#youtube {
+  color: var(--color-1);
+  border: 2px solid var(--color-1);
+}
+
+#youtube:hover {
+  color: white;
+  background-color: var(--color-youtube);
+  border: 2px solid var(--color-youtube);
+}
+
+#twitch {
+  color: var(--color-1);
+  border: 2px solid var(--color-1);
+}
+
+#twitch:hover {
+  color: white;
+  background-color: var(--color-twitch);
+  border: 2px solid var(--color-twitch);
+}
+
+#discord {
+  color: var(--color-1);
+  border: 2px solid var(--color-1);
+}
+
+#discord:hover {
+  color: white;
+  background-color: var(--color-discord);
+  border: 2px solid var(--color-discord);
 }
 
 /* Mobile */
@@ -147,8 +191,8 @@ h2.subtitulo {
     padding-bottom: 10px;
     padding-left: 20px;
     padding-right: 20px;
-    margin-top: 6%;
-    margin-bottom: 6%;
+    margin-top: 8%;
+    margin-bottom: 8%;
     transition: 0.5s;
     display: block;
     text-decoration: none;
