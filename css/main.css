@@ -99,6 +99,17 @@ h2.subtitulo {
   text-decoration: none;
 }
 
+#whatsapp {
+  color: var(--color-1);
+  border: 2px solid var(--color-whatsapp);
+}
+
+#whatsapp:hover {
+  color: white;
+  background-color: var(--color-whatsapp);
+  border: 2px solid var(--color-whatsapp);
+}
+
 /* Mobile */
 @media only screen and (max-device-width: 1200px) and (orientation: portrait) {
   /* Main section */
@@ -120,5 +131,40 @@ h2.subtitulo {
     font-size: 250%;
     font-weight: 200;
     margin-top: -40px;
+  }
+
+  /* Parte com os links da pessoa*/
+
+  .button {
+    color: var(--color-1);
+    font-family: var(--font-1);
+    letter-spacing: 0.25%;
+    font-size: 320%;
+    text-align: center;
+    border: 2px solid var(--color-1);
+    border-radius: 60px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 6%;
+    margin-bottom: 6%;
+    transition: 0.5s;
+    display: block;
+    text-decoration: none;
+  }
+
+  .button:hover {
+    color: var(--background-color);
+    font-family: var(--font-1);
+    background-color: var(--color-1);
+    border-radius: 60px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    display: block;
+    transition: 0.5s;
+    text-decoration: none;
   }
 }
