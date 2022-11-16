@@ -3,12 +3,11 @@
   --color-2: #5e81ac;
   --background-color-1: #2e3440;
 
-  --color-whatsapp: #4fce5d;
-  --color-instagram: ;
-  --color-telegram: #0088cc;
-  --color-twitch: #6441a4;
-  --color-youtube: #ff0000;
-  --color-discord: #738adb;
+  --color-github: #6e5494;
+  --color-linkedin: #006192;
+
+  /* Cores do gradiente do
+  Instagram */
 
   --white: #fff;
   --blue: #3051f1;
@@ -94,6 +93,7 @@ h2.subtitulo {
   */
   display: block;
   text-decoration: none;
+  width: 70%;
 }
 
 .button:hover {
@@ -131,54 +131,29 @@ h2.subtitulo {
   transition: 0.1s;
 }
 
-#whatsapp {
-  border: 2px solid var(--color-1);
+#linkedin {
+  border: 0px solid var(--color-1);
 }
 
-#whatsapp:hover {
-  background-color: var(--color-whatsapp);
-  border: 2px solid var(--color-whatsapp);
-}
-
-#telegram {
-  border: 2px solid var(--color-1);
-}
-
-#telegram:hover {
-  background-color: var(--color-telegram);
-  border: 2px solid var(--color-telegram);
-}
-
-#youtube {
-  border: 2px solid var(--color-1);
-}
-
-#youtube:hover {
+#linkedin:hover {
   color: white;
-  background-color: var(--color-youtube);
-  border: 2px solid var(--color-youtube);
+  font-family: var(--font-1);
+  background-color: var(--color-linkedin);
+  border: 0px solid var(--color-1);
 }
 
-#twitch {
-  color: var(--color-1);
-  border: 2px solid var(--color-1);
+#github {
+  color: var(--background-color-1);
+  font-family: var(--font-1);
+  background-color: var(--color-1);
+  border: 0px solid var(--color-1);
 }
 
-#twitch:hover {
+#github:hover {
   color: white;
-  background-color: var(--color-twitch);
-  border: 2px solid var(--color-twitch);
-}
-
-#discord {
-  color: var(--color-1);
-  border: 2px solid var(--color-1);
-}
-
-#discord:hover {
-  color: white;
-  background-color: var(--color-discord);
-  border: 2px solid var(--color-discord);
+  font-family: var(--font-1);
+  background-color: var(--color-github);
+  border: 0px solid var(--color-1);
 }
 
 /* Mobile */
@@ -209,14 +184,15 @@ h2.subtitulo {
   .button {
     font-family: var(--font-1);
     letter-spacing: 0.25%;
-    font-size: 320%;
+    font-size: 340%;
     text-align: center;
     border: 2px solid var(--color-1);
     border-radius: 60px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin: auto;
     margin-top: 8%;
     margin-bottom: 8%;
     transition: 0.5s;
@@ -228,10 +204,10 @@ h2.subtitulo {
     font-family: var(--font-1);
     background-color: var(--color-1);
     border-radius: 60px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    padding-left: 40px;
-    padding-right: 40px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
     display: block;
     transition: 0.5s;
     text-decoration: none;
