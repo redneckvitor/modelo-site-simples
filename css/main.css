@@ -4,18 +4,90 @@
 
   /* Cores das redes sociais */
   --color-instagram: ;
-  --color-whatsapp: ;
+  --color-whatsapp: #4fce5d;
   --color-facebook: ;
-  --color-youtube: ;
-  --color-telegram: ;
+  --color-youtube: #ff0000;
+  --color-telegram: #0088cc;
   --color-discord: ;
-  --color-twitch: ;
-  --color-discord: ;
+  --color-twitch: #6441a4;
+  --color-discord: #738adb;
   --color-linkedin: ;
   --color-github: ;
 
   /* Tamanho */
   --user-image-size: 34%;
-  --desktop-section-size: 30%;
+  --desktop-section-size: 40%;
   --mobile-section-size: 90%;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/*
+body {
+  background-color: red;
+}
+*/
+.main-content {
+  width: var(--desktop-section-size);
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid white;
+}
+
+.info {
+}
+
+.user-image {
+  border-radius: 50%;
+  width: 50%;
+  height: auto;
+  margin-top: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.titulo {
+  color: white;
+  font-family: "Red Hat Display", sans-serif;
+  font-size: 4em;
+}
+.subtitulo {
+  color: white;
+}
+
+.button {
+  color: black;
+  font-size: 20px;
+  text-align: center;
+  text-decoration: none;
+
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-left: auto;
+  margin-right: auto;
+
+  padding: 5px 10px;
+
+  width: 30%;
+  display: block;
+  background-color: white;
+}
+
+.animated-gradient {
+  animation: animateBg 15s linear infinite;
+  background-image: linear-gradient(0deg, #000000, #241f31, #000000, #241f31);
+  background-size: 100% 300%;
+}
+@keyframes animateBg {
+  0% {
+    background-position: 0% 0%;
+  }
+  100% {
+    background-position: 0% 100%;
+  }
 }
