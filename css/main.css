@@ -29,13 +29,19 @@
   box-sizing: border-box;
 }
 
-.main-content {
-  width: var(--desktop-section-size);
-  margin-left: auto;
-  margin-right: auto;
+.container {
+  display: grid;
+  grid-template-rows: 1fr 2fr;
 }
 
-.info {
+div {
+  border: 1px solid white;
+
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  width: var(--desktop-section-size);
+  min-height: 33.33333vh;
 }
 
 .user-image {
@@ -43,7 +49,7 @@
   border: 4px solid var(--color-2);
   padding: 1%;
 
-  width: 32%;
+  width: 20%;
   height: auto;
   margin-top: 2%;
   margin-bottom: 2%;
@@ -58,10 +64,6 @@
   font-size: 400%;
   text-transform: uppercase;
   text-align: center;
-
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 .subtitulo {
@@ -74,10 +76,6 @@
   display: block;
   margin-left: auto;
   margin-right: auto;
-}
-
-.links {
-  padding-bottom: 16%;
 }
 
 .button {
