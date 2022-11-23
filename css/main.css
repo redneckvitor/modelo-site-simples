@@ -191,14 +191,74 @@ div {
   }
 }
 
-@media (max-width: 320px) {
+@media (min-width: 320px) {
   div {
     border: 0px solid white;
     width: 92%;
   }
 
   .user-image {
-    width: 54%;
+    width: 50%;
+    margin: 4% auto;
+  }
+
+  .titulo {
+    color: var(--cor-texto);
+    font-family: var(--font-2);
+    font-size: 200%;
+  }
+
+  .subtitulo {
+    font-size: 130%;
+  }
+
+  .button {
+    font-size: 130%;
+    padding: 2% 10px;
+    margin-top: 4%;
+    margin-bottom: 4%;
+  }
+
+  .animated-gradient {
+    animation: animateBg-1 6s linear infinite;
+
+    background: radial-gradient(
+      circle at 50% 0%,
+      rgba(5, 63, 130, 1) 0%,
+      rgba(19, 20, 22, 1) 36%
+    );
+
+    background-size: 100%;
+
+    background-repeat: no-repeat;
+  }
+
+  @keyframes animateBg-1 {
+    0% {
+      background-position: center top;
+      background-size: 100%;
+    }
+
+    50% {
+      background-position: center top;
+      background-size: 550%;
+    }
+
+    100% {
+      background-position: center top;
+      background-size: 100%;
+    }
+  }
+}
+
+@media (min-width: 375px) {
+  div {
+    border: 0px solid white;
+    width: 92%;
+  }
+
+  .user-image {
+    width: 50%;
     margin: 4% auto;
   }
 
@@ -251,21 +311,21 @@ div {
   }
 }
 
-@media (max-width: 375px) {
+@media (min-width: 425px) {
   div {
     border: 0px solid white;
     width: 92%;
   }
 
   .user-image {
-    width: 54%;
+    width: 50%;
     margin: 4% auto;
   }
 
   .titulo {
     color: var(--cor-texto);
     font-family: var(--font-2);
-    font-size: 220%;
+    font-size: 270%;
   }
 
   .subtitulo {
@@ -273,127 +333,7 @@ div {
   }
 
   .button {
-    font-size: 140%;
-    padding: 2% 10px;
-    margin-top: 4%;
-    margin-bottom: 4%;
-  }
-
-  .animated-gradient {
-    animation: animateBg-1 6s linear infinite;
-
-    background: radial-gradient(
-      circle at 50% 0%,
-      rgba(5, 63, 130, 1) 0%,
-      rgba(19, 20, 22, 1) 36%
-    );
-
-    background-size: 100%;
-
-    background-repeat: no-repeat;
-  }
-
-  @keyframes animateBg-1 {
-    0% {
-      background-position: center top;
-      background-size: 100%;
-    }
-
-    50% {
-      background-position: center top;
-      background-size: 550%;
-    }
-
-    100% {
-      background-position: center top;
-      background-size: 100%;
-    }
-  }
-}
-
-@media (max-width: 425px) {
-  div {
-    border: 0px solid white;
-    width: 92%;
-  }
-
-  .user-image {
-    width: 54%;
-    margin: 4% auto;
-  }
-
-  .titulo {
-    color: var(--cor-texto);
-    font-family: var(--font-2);
-    font-size: 280%;
-  }
-
-  .subtitulo {
-    font-size: 160%;
-  }
-
-  .button {
-    font-size: 140%;
-    padding: 2% 10px;
-    margin-top: 4%;
-    margin-bottom: 4%;
-  }
-
-  .animated-gradient {
-    animation: animateBg-1 6s linear infinite;
-
-    background: radial-gradient(
-      circle at 50% 0%,
-      rgba(5, 63, 130, 1) 0%,
-      rgba(19, 20, 22, 1) 36%
-    );
-
-    background-size: 100%;
-
-    background-repeat: no-repeat;
-  }
-
-  @keyframes animateBg-1 {
-    0% {
-      background-position: center top;
-      background-size: 100%;
-    }
-
-    50% {
-      background-position: center top;
-      background-size: 550%;
-    }
-
-    100% {
-      background-position: center top;
-      background-size: 100%;
-    }
-  }
-}
-
-@media (max-width: 768px) {
-  div {
-    border: 0px solid white;
-    width: 92%;
-  }
-
-  .user-image {
-    width: 30%;
-    margin: 4% auto;
-  }
-
-  .titulo {
-    color: var(--cor-texto);
-    font-family: var(--font-2);
-    font-size: 280%;
-  }
-
-  .subtitulo {
-    font-size: 160%;
-  }
-
-  .button {
-    font-size: 140%;
+    font-size: 130%;
     padding: 2% 10px;
     margin-top: 4%;
     margin-bottom: 4%;
