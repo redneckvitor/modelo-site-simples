@@ -373,7 +373,7 @@ div {
 }
 
 */
-@media only screen and (max-device-width: 1200px) and (orientation: portrait) and (min-width: 750px) {
+@media only screen and (max-device-width: 1200px) and (orientation: portrait) {
   div {
     border: 1px solid white;
     width: 92%;
@@ -402,29 +402,7 @@ div {
   }
 
   .animated-gradient {
-    animation: animateBg-1 6s linear infinite;
-
-    background: radial-gradient(circle at 50% 0%, #053f82 0%, #131416 36%);
-
-    background-size: 100%;
-
-    background-repeat: no-repeat;
-  }
-
-  @keyframes animateBg-1 {
-    0% {
-      background-position: center top;
-      background-size: 100%;
-    }
-
-    50% {
-      background-position: center top;
-      background-size: 550%;
-    }
-
-    100% {
-      background-position: center top;
-      background-size: 100%;
-    }
+    background: rgb(5, 63, 130);
+    background: linear-gradient(180deg, #053f82 0%, #131416 55%);
   }
 }
