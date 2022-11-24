@@ -379,7 +379,7 @@ div {
 */
 @media only screen and (min-device-width: 400px) and (orientation: portrait) {
   div {
-    border: 1px solid white;
+    border: 0px solid white;
     width: 92%;
   }
 
@@ -396,13 +396,14 @@ div {
 
   .subtitulo {
     font-size: 1.8rem;
+    font-weight: lighter;
   }
 
   .button {
-    font-size: 160%;
+    font-size: 140%;
     padding: 2% 10px;
-    margin-top: 5%;
-    margin-bottom: 5%;
+    margin-top: 7%;
+    margin-bottom: 7%;
   }
 
   .animated-gradient {
