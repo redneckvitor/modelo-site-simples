@@ -373,7 +373,7 @@ div {
 }
 
 */
-@media only screen and (max-device-width: 1200px) and (orientation: portrait) {
+@media only screen and (max-device-width: 1200px) and (orientation: portrait) and (min-width: 750px) {
   div {
     border: 1px solid white;
     width: 92%;
@@ -387,7 +387,7 @@ div {
   .titulo {
     color: var(--cor-texto);
     font-family: var(--font-2);
-    font-size: 6em;
+    font-size: 4em;
   }
 
   .subtitulo {
@@ -404,11 +404,7 @@ div {
   .animated-gradient {
     animation: animateBg-1 6s linear infinite;
 
-    background: radial-gradient(
-      circle at 50% 0%,
-      rgba(5, 63, 130, 1) 0%,
-      rgba(19, 20, 22, 1) 36%
-    );
+    background: radial-gradient(circle at 50% 0%, #053f82 0%, #131416 36%);
 
     background-size: 100%;
 
@@ -431,6 +427,4 @@ div {
       background-size: 100%;
     }
   }
-}
-
 }
