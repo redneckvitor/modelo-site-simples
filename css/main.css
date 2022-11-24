@@ -377,6 +377,119 @@ div {
 }
 
 */
+
+/* layout adaptado para 280px */
+@media only screen and (min-device-width: 280px) and (orientation: portrait) {
+  div {
+    width: 92%;
+  }
+
+  .user-image {
+    width: 32%;
+    margin: 4% auto;
+    border: 2px solid var(--cor-principal);
+  }
+
+  .titulo {
+    color: var(--cor-texto);
+    font-family: var(--font-2);
+    font-size: 1.8rem;
+  }
+
+  .subtitulo {
+    font-size: 1rem;
+    font-weight: normal;
+  }
+
+  .button {
+    font-size: 110%;
+    padding: 2% 10px;
+    margin-top: 6%;
+    margin-bottom: 6%;
+  }
+
+  .animated-gradient {
+    background: #1e212c;
+    background-color: #1e212c;
+  }
+}
+
+/* layout sendo adaptado para 320px */
+@media only screen and (min-device-width: 320px) and (orientation: portrait) {
+  div {
+    width: 92%;
+  }
+
+  .user-image {
+    width: 32%;
+    margin: 4% auto;
+    border: 2px solid var(--cor-principal);
+  }
+
+  .titulo {
+    color: var(--cor-texto);
+    font-family: var(--font-2);
+    font-size: 2rem;
+  }
+
+  .subtitulo {
+    font-size: 1.2rem;
+    font-weight: normal;
+    padding-left: 2%;
+    padding-right: 2%;
+  }
+
+  .button {
+    font-size: 110%;
+    padding: 2% 10px;
+    margin-top: 6%;
+    margin-bottom: 6%;
+  }
+
+  .animated-gradient {
+    background: #1e212c;
+    background-color: #1e212c;
+  }
+}
+
+/* Media query do 375px */
+@media only screen and (min-device-width: 375px) and (orientation: portrait) {
+  div {
+    width: 92%;
+  }
+
+  .user-image {
+    width: 32%;
+    margin: 4% auto;
+    border: 2px solid var(--cor-principal);
+  }
+
+  .titulo {
+    color: var(--cor-texto);
+    font-family: var(--font-2);
+    font-size: 2.4rem;
+  }
+
+  .subtitulo {
+    font-size: 1.2rem;
+    font-weight: normal;
+    padding-left: 1%;
+    padding-right: 1%;
+  }
+
+  .button {
+    font-size: 110%;
+    padding: 2% 10px;
+    margin-top: 6%;
+    margin-bottom: 6%;
+  }
+
+  .animated-gradient {
+    background: #1e212c;
+    background-color: #1e212c;
+  }
+}
+
 @media only screen and (min-device-width: 400px) and (orientation: portrait) {
   div {
     border: 0px solid white;
@@ -384,8 +497,9 @@ div {
   }
 
   .user-image {
-    width: 42%;
+    width: 36%;
     margin: 4% auto;
+    border: 2px solid var(--cor-principal);
   }
 
   .titulo {
@@ -407,7 +521,45 @@ div {
   }
 
   .animated-gradient {
-    background: rgb(5, 63, 130);
-    background: linear-gradient(180deg, #053f82 0%, #131416 35%);
+    background: #1e212c;
+    background-color: #1e212c;
+  }
+}
+
+/* Media query do 425px */
+@media only screen and (min-device-width: 425px) and (orientation: portrait) {
+  div {
+    width: 92%;
+  }
+
+  .user-image {
+    width: 36%;
+    margin: 4% auto;
+    border: 2px solid var(--cor-principal);
+  }
+
+  .titulo {
+    color: var(--cor-texto);
+    font-family: var(--font-2);
+    font-size: 2.4rem;
+  }
+
+  .subtitulo {
+    font-size: 1.2rem;
+    font-weight: normal;
+    padding-left: 1%;
+    padding-right: 1%;
+  }
+
+  .button {
+    font-size: 130%;
+    padding: 2% 10px;
+    margin-top: 6%;
+    margin-bottom: 6%;
+  }
+
+  .animated-gradient {
+    background: #1e212c;
+    background-color: #1e212c;
   }
 }
